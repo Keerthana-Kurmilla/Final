@@ -1,7 +1,8 @@
 import { FileText, Download, Eye, Calendar, Tag, User, BookOpen } from 'lucide-react';
 
 const NoteCard = ({ note, showActions, onDelete, onEdit }) => {
-    const pdfUrl = `http://localhost:5000/${note.pdfPath.replace(/\\/g, '/')}`;
+    // Use the production backend URL for PDFs
+    const pdfUrl = `https://final-czen.onrender.com/${note.pdfPath.replace(/\\/g, '/')}`;
 
     return (
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
