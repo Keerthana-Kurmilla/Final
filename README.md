@@ -153,13 +153,6 @@ npm run dev
 
 ---
 
-## Author
-
-**Kurmilla Keerthana**  
-B.Tech – Computer Science and Engineering (AI & ML)  
-SR University
-
----
 
 ## Acknowledgements
 
